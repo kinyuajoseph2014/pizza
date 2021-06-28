@@ -1,0 +1,75 @@
+    .background {
+        background-image: url("/images/food2.jpg");
+        /* padding-bottom: 20%; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        color: rgb(223, 113, 11);
+        opacity: 0.8;
+    }
+    
+    .pic img {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        -ms-border-radius: 150px;
+        -o-border-radius: 150px;
+        margin-top: 50%;
+        color: aqua;
+    }
+    
+    .small:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+    /* button {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    border: 2px solid black;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+} */
+    
+    .pic p {
+        color: blue;
+        width: 40%;
+        text-align: center;
+        text-shadow: 2px 2px 5px rgb(223, 113, 11);
+        ;
+        margin-left: 60px;
+        font-size: 25px;
+        /* display: none; */
+    }
+    
+    .about {
+        text-align: center;
+        color: rgb(223, 113, 11);
+        margin-top: 30px
+    }
+    
+    .wrap {
+        border: 5px solid black;
+        margin: 20px;
+        padding: 20px;
+        width: 80%;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+        margin-left: 10%;
+        background-color: rgb(223, 113, 11, 0.2);
+    }
+    
+    .bottom {
+        background-color: rgb(223, 113, 11, 0.2);
+    }
+    
+    .social {
+        margin-left: 80%;
+    }

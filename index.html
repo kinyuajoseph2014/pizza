@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>pizaa</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="background">
+            <h1 class="text-center">WELCOME TO PIZZA DELICACY WE OFFER QUALITY SERVICES TO OUR CUSTOMERS</h1>
+            <div>
+                <h3 class="text-center">we deal with various types of pizzas where our customers have a variety to choose from</h3>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>American chicken pizza</li>
+                    <li>British beef pizza</li>
+                    <li>Spanish matton pizza</li>
+                    <li>Italian daily pizza</li>
+                    <li>Dutch chicken pizza</li>
+                    <li>Congolese beef pizza</li>
+                </ul>
+            </div>
+            <div class="container d-flex justify-content-center
+                    justify-content-around">
+                <div class="pic">
+                    <img src="images/small.jpg" alt="small" class="small">
+                    <p>Small pizza we are offering at a price of 750</p>
+                </div>
+                <div class="pic">
+                    <img src="images/medium.png" alt="medium">
+                    <p>Small pizza we are offering at a price of 850</p>
+                </div>
+                <div class="pic">
+                    <img src="images/large.jpeg" alt="large">
+                    <p>Small pizza we are offering at a price of 950</p>
+                </div>
+            </div>
+            <div class="about">
+                <div class="container">
+                    <h3>ABOUT US</h3>
+                    <h4>
+                        Pizza Delicacy cafe is located along Mirema Drive.We have different pizzas that we offer to our customers,where each pizza has three size.Which includes:small size, medium size and large size. Our customers are able to choose the type of pizza, size of
+                        pizza, kind of crust pizza contain and topping(s) they want. Our customers can place orders and have option to select pizza delivered at a cost or not.
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrap">
+                <form id="myform">
+
+                    <h4>Select pizza and place to be delivered</h4>
+
+                    <div class="form-select">
+                        <label>Select the type of pizza you want:</label>
+                        <select class="form-control" id="type">
+                                <option>American chicken pizza</option>
+                                <option>British beef pizza</option>
+                                <option>Spanish matton pizza</option>
+                                <option>Italian daily pizza</option>
+                                <option>Dutch chicken pizza</option>
+                                <option>Congolese beef pizza</option>
+                            </select>
+                    </div>
+                    <div class="form-select">
+                        <label>Select the size of your pizza:</label>
+                        <select class="form-control" id="size">
+                                <option value="0">Large @ ksh 1100</option>
+                                <option value="1">Medium @ ksh 950</option>
+                                <option value="2">Small @ ksh750</option>
+                            </select>
+                    </div>
+                    <div class="form-select">
+                        <label>Choose your favorite crust:</label>
+                        <select class="form-control" id="crust">
+                                <option value="0">Cripsy @ ksh 100</option>
+                                <option value="1">Stuffed @ ksh 80</option>
+                                <option value="2">Gluten-free ksh 55</option>
+                            </select>
+                    </div>
+                    <div class="form-select">
+                        <label>Choose your favorite topping:</label>
+                        <select class="form-control" id="topping">
+                                <option value="0">red pepper @ ksh 80</option>
+                                <option value="1">black olives @ ksh 60</option>
+                                <option value="2">white onions @ ksh 40</option>
+                            </select>
+                    </div>
+                    <div class="form-select" required>
+                        <label>Number of pizza:</label>
+                        <input type="number" id="num" class="form-control" min="1" required>
+                    </div>
+                    <div class="form-select" required>
+                        <label>option for delivery:</label>
+                        <select class="form-control" id="mode">
+                                <option value="0">pizza delivered @ ksh 250</option>
+                                <option value="1">pick from our cafe</option>
+                            </select>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary
+                                checkout" id="checkout">Place an
+                                Order</button>
+
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+        <h3>For any query about our services you can reach us via email:</h3>
+        <footer>
+            <div class="bottom">
+                <form class="container-fluid">
+                    <div class="container d-flex justify-content-center gap-3
+                    mb-4">
+                        <input name="name" type="text" placeholder="Name..." id="name" required>
+                        <input name="Email" type="text" placeholder="Email...." id="email" required>
+                    </div>
+                    <div>
+                        <div class="textarea d-flex justify-content-center">
+                            <textarea name="message" placeholder="Your message here..." id="area" cols="50" rows="3"></textarea><br>
+                        </div>
+                        <div class="btn d-flex justify-content-center mt-lg-4 ">
+                            <button type="submit" class="btn btn-success bg-primary">Submit text</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="social">
+                    <p>social media handles:</p>
+                    <img src="/images/twitter.png" alt="twitter">
+                    <img src="/images/facebook.png" alt="facebook">
+                    <img src="/images/pinterest.png" alt="pinterest">
+                    <img src="/images/you_tube.png" alt="youtube">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
